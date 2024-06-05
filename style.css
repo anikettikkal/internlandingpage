@@ -1,0 +1,154 @@
+.max {
+    height: 430px;
+
+}
+
+.red {
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.container {
+    
+    display: inline-block;
+    background-color: hwb(318 93% 3%);
+    padding-top: 35px;
+    margin-left: 80px;
+}
+
+
+.xyz {
+    width: 1340px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid grey;
+}
+
+.bitwise {
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.abc {
+    width: 250px;
+    height: 425px;
+    border: 2px solid darkgrey;
+    background-color: #ffff;
+    box-shadow: 0px 0px 2px 0px darkgray;
+    border-radius: 5px;
+}
+
+.abc:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 15px;
+    border: 2px solid grey;
+    transition: 0.5s;
+}
+
+.addto {
+    width: 220px;
+    height: 30px;
+    margin-left: 15px;
+    border: 2px double black;
+    border-radius: 30px;
+    background-color: skyblue;
+    color: #ffff;
+}
+
+.addto:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    box-shadow: 0 0 0 1px black;
+}
+
+.min {
+    width: 1350px;
+    height: 430px;
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+}
+
+.carts-text {
+    padding-left: 8px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.effect-on-top {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.heading-gifts-privority {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.gifts-privority {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.image-border {
+    border-radius: 10px;
+
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.sliding-img {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 5%);
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/49/01/44/1000_F_249014477_PVjJfBDucxEryscqi8bivgViqkZSurd9.jpg");
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url("https://as1.ftcdn.net/v2/jpg/02/49/01/44/1000_F_249014477_PVjJfBDucxEryscqi8bivgViqkZSurd9.jpg");
+        background-size: 100% 100%;
+    }
+
+    30% {
+        background-image: url("https://static.vecteezy.com/system/resources/previews/002/654/480/original/summer-sale-offer-banner-template-with-3d-cylinder-podium-product-display-with-green-tropical-monstera-leaves-plant-and-blue-background-vector.jpg");
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/4-year-anniversary-gifts-1657114646.jpg");
+        background-size: 100% 100%;
+    }
+}
